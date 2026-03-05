@@ -1,5 +1,7 @@
 # Documentation Samples — Kara R. Peoples
 
+Documentation portfolio demonstrating developer-facing technical documentation, including API references, setup guides, and system workflows.
+
 A small collection of documentation samples demonstrating:
 - developer onboarding/setup instructions
 - API reference documentation
