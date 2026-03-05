@@ -1,4 +1,4 @@
-#School'R — Setup & Run Guide
+##School'R — Setup & Run Guide
 
 ## Overview
 School'R is a React app that uses a mock API for CRUD workflows during local development.
