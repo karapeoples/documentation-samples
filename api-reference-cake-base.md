@@ -35,7 +35,6 @@ Major route groups include:
 - Admin
 - Product Inventory
 - Inventory Stock
-- Payroll Management
 
 ---
 
