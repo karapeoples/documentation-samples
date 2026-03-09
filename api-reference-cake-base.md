@@ -111,7 +111,7 @@ BASEURL/strain
 
 ---
 
-## In-House Payroll Routes
+## In-House PreRoll Routes
 
 | Action | Method | Endpoint |
 |------|------|------|
@@ -122,7 +122,7 @@ BASEURL/strain
 
 ---
 
-## Company Payroll Routes
+## Company PreRoll Routes
 
 | Action | Method | Endpoint |
 |------|------|------|
@@ -134,7 +134,7 @@ BASEURL/strain
 
 ---
 
-## Current Payroll Routes
+## Current PreRoll Routes
 
 | Action | Method | Endpoint |
 |------|------|------|
