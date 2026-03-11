@@ -16,22 +16,27 @@ This documentation sample focuses on helping a developer clone, install, and run
 1. Clone the repository.
 2. Install dependencies:
 
+npm
 ```bash
 npm install
 ```
 or
-```
+
+yarn
+```bash
 yarn
 ```
 
 ## Start the Mock API
 
 Run one of the following commands:
-```
+
+```bash
 npm run mock:api
 ```
 or
-```
+
+```bash
 yarn mock:api
 ```
 This starts the mock API used to support CRUD workflows through the local data source.
@@ -39,11 +44,13 @@ This starts the mock API used to support CRUD workflows through the local data s
 ## Start the Application
 
 In a separate terminal, run:
-```
+
+```bash
 npm start
 ```
 or
-```
+
+```bash
 yarn start
 ```
 
@@ -59,7 +66,7 @@ If CRUD changes do not appear, verify that the local mock API process started su
 
 This sample demonstrates clear setup guidance for a collaborative React project using a mock API workflow, with emphasis on:
 
--prerequisite clarity
--step-by-step setup
--command visibility
--common troubleshooting points
+- Prerequisite Clarity
+- sStep-by-Step Setup
+- Command Visibility
+- Common Troubleshooting Points
