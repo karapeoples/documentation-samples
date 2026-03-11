@@ -1,28 +1,65 @@
-##School'R — Setup & Run Guide
+# School'R — Setup & Run Guide
 
 ## Overview
-School'R is a React app that uses a mock API for CRUD workflows during local development.
+
+School'R is a React application that uses a mock API workflow for CRUD operations during local development.
+
+This documentation sample focuses on helping a developer clone, install, and run the project successfully in a local environment.
 
 ## Prerequisites
+
 - Node.js (LTS recommended)
 - npm or yarn
 
-## Install
-1. Clone the repo
+## Installation
+
+1. Clone the repository.
 2. Install dependencies:
-   - `npm install` or `yarn`
 
-## Start the mock API (json-server)
-Run one of the following:
-- `npm run mock:api`
-- `yarn mock:api`
+```bash
+npm install
+```
+or
+```
+yarn
+```
 
-This starts the mock API used for CRUD operations via the `db.json` file.
+## Start the Mock API
 
-## Run the app
-In a separate terminal:
-- `npm start` or `yarn start`
+Run one of the following commands:
+```
+npm run mock:api
+```
+or
+```
+yarn mock:api
+```
+This starts the mock API used to support CRUD workflows through the local data source.
 
-## Notes
-- If the UI loads but data is missing, confirm the mock API is running.
-- If ports conflict, update the script in `package.json` or stop the existing service.
+## Start the Application
+
+In a separate terminal, run:
+```
+npm start
+```
+or
+```
+yarn start
+```
+
+## Troubleshooting Notes
+
+If the UI loads but project data is missing, confirm the mock API is running.
+
+If a port conflict occurs, update the script in package.json or stop the conflicting process.
+
+If CRUD changes do not appear, verify that the local mock API process started successfully.
+
+## Documentation Goal
+
+This sample demonstrates clear setup guidance for a collaborative React project using a mock API workflow, with emphasis on:
+
+-prerequisite clarity
+-step-by-step setup
+-command visibility
+-common troubleshooting points
